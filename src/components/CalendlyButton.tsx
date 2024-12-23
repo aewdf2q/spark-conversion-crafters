@@ -8,9 +8,9 @@ interface CalendlyButtonProps {
 export const CalendlyButton = ({ className, children }: CalendlyButtonProps) => {
   return (
     <PopupButton
-      url="https://calendly.com/your-calendly-url" // Replace with your Calendly URL
+      url="https://calendly.com/arturssemenako/30min"
       rootElement={document.getElementById("root")!}
-      text={children || "Schedule Your Strategy Call"}
+      text={children?.toString() || "Schedule Your Strategy Call"}
       className={className}
     />
   );

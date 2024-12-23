@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export const CTASection = () => {
   return (
-    <section className="py-20 bg-gradient-to-r from-primary/20 to-secondary/20">
+    <section className="py-20 bg-gradient-to-r from-red-900/20 via-orange-900/20 to-yellow-900/20">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
           Ready to Transform Your Business?
@@ -13,7 +13,7 @@ export const CTASection = () => {
         </p>
         <Button
           size="lg"
-          className="bg-secondary hover:bg-secondary/90 text-white px-8 py-6 text-lg"
+          className="bg-gradient-to-r from-red-600 via-yellow-500 to-orange-500 hover:opacity-90 text-white px-8 py-6 text-lg"
         >
           Schedule Your Strategy Call
         </Button>

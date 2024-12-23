@@ -5,10 +5,17 @@ import { CTASection } from "@/components/CTASection";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-[#0A0A0A]">
+    <div className="min-h-screen bg-black">
+      {/* Attention */}
       <Hero />
+      
+      {/* Interest */}
       <Stats />
+      
+      {/* Desire */}
       <Testimonials />
+      
+      {/* Action */}
       <CTASection />
     </div>
   );

@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { CalendlyButton } from "./CalendlyButton";
 
 export const Hero = () => {
   return (
@@ -19,12 +19,7 @@ export const Hero = () => {
           Video Sales Letter (3-7 minutes)
         </div>
       </div>
-      <Button
-        size="lg"
-        className="bg-gradient-to-r from-red-600 via-yellow-500 to-orange-500 hover:opacity-90 text-white px-8 py-6 text-lg animate-float"
-      >
-        Schedule Your Strategy Call
-      </Button>
+      <CalendlyButton className="bg-gradient-to-r from-red-600 via-yellow-500 to-orange-500 hover:opacity-90 text-white px-8 py-6 text-lg rounded-md animate-float" />
     </section>
   );
 };

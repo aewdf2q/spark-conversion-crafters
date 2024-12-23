@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { CalendlyButton } from "./CalendlyButton";
 
 export const CTASection = () => {
   return (
@@ -11,12 +11,7 @@ export const CTASection = () => {
           Join the growing list of businesses that have revolutionized their
           content strategy with Spark Chamber
         </p>
-        <Button
-          size="lg"
-          className="bg-gradient-to-r from-red-600 via-yellow-500 to-orange-500 hover:opacity-90 text-white px-8 py-6 text-lg"
-        >
-          Schedule Your Strategy Call
-        </Button>
+        <CalendlyButton className="bg-gradient-to-r from-red-600 via-yellow-500 to-orange-500 hover:opacity-90 text-white px-8 py-6 text-lg rounded-md" />
       </div>
     </section>
   );

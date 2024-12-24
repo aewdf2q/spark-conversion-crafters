@@ -3,21 +3,21 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    role: "CEO, TechStart",
-    content: "Working with Spark Chamber transformed our messaging completely. Our conversion rates doubled in just 3 months.",
+    name: "Maria",
+    role: "Fitness Coach",
+    content: "My inbox used to feel like chaos. Spark Chamber's automation not only made it manageable but also helped me connect with serious clients faster. I wish I'd found this sooner!",
     image: "/placeholder.svg"
   },
   {
-    name: "Michael Chen",
-    role: "Marketing Director",
-    content: "The team's attention to detail and understanding of our market was impressive. Best investment we've made.",
+    name: "James",
+    role: "Business Owner",
+    content: "Their system just works. It's like having an extra team member who never sleeps. I've saved countless hours while seeing better lead quality.",
     image: "/placeholder.svg"
   },
   {
-    name: "Emma Davis",
-    role: "Founder, GrowthLabs",
-    content: "The ROI we've seen from their copy has been incredible. They truly understand how to speak to our audience.",
+    name: "Laura",
+    role: "Online Coach",
+    content: "At first, I was skeptical about automation for something as personal as client interaction. But this is different, it's smart, responsive, and human-like. My clients love it, and so do I.",
     image: "/placeholder.svg"
   }
 ];

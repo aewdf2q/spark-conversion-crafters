@@ -14,14 +14,14 @@ export const Hero = () => {
         and grows your revenue
       </p>
       <div className="w-full max-w-4xl aspect-video mb-8 bg-gray-800 rounded-lg overflow-hidden">
-        <video 
-          className="w-full h-full object-cover"
-          controls
-          preload="metadata"
-        >
-          <source src="https://drive.google.com/uc?export=download&id=1LUDKX4FS_bHzUs_-IpSdaKMkgQsD9gnn" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        <iframe 
+          className="w-full h-full"
+          src="https://www.youtube.com/embed/_ecpO6He9fc?si=jAvBSqccK4hXlGjf" 
+          title="YouTube video player" 
+          frameBorder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowFullScreen
+        ></iframe>
       </div>
       <CalendlyButton className="bg-gradient-to-r from-red-600 via-yellow-500 to-orange-500 hover:opacity-90 text-white px-8 py-6 text-lg rounded-md animate-float" />
     </section>

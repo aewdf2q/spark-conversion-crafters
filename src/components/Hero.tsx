@@ -13,11 +13,15 @@ export const Hero = () => {
         Partner with Spark Chamber to create compelling content that drives results
         and grows your revenue
       </p>
-      <div className="w-full max-w-4xl aspect-video mb-8 bg-gray-800 rounded-lg">
-        {/* Placeholder for VSL */}
-        <div className="w-full h-full flex items-center justify-center text-gray-400">
-          Video Sales Letter (3-7 minutes)
-        </div>
+      <div className="w-full max-w-4xl aspect-video mb-8 bg-gray-800 rounded-lg overflow-hidden">
+        <video 
+          className="w-full h-full object-cover"
+          controls
+          preload="metadata"
+        >
+          <source src="https://drive.google.com/uc?export=download&id=1LUDKX4FS_bHzUs_-IpSdaKMkgQsD9gnn" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
       <CalendlyButton className="bg-gradient-to-r from-red-600 via-yellow-500 to-orange-500 hover:opacity-90 text-white px-8 py-6 text-lg rounded-md animate-float" />
     </section>

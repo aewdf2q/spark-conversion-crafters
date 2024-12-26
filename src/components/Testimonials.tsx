@@ -6,7 +6,7 @@ const testimonials = [
     name: "Maria",
     role: "Fitness Coach",
     content: "My inbox was chaotic, but not anymore. Now I have more time to communicate with clients faster.",
-    image: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd"
+    image: "https://images.unsplash.com/photo-1609899464726-861593284d78"
   },
   {
     name: "James",

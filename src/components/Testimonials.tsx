@@ -5,20 +5,20 @@ const testimonials = [
   {
     name: "Maria",
     role: "Fitness Coach",
-    content: "My inbox was chaotic before Spark Chamber. Now it's streamlined, and I connect with serious clients faster. Wish I'd found this sooner!",
-    image: "/placeholder.svg"
+    content: "My inbox was chaotic, but not anymore. Now I have more time to communicate with clients faster.",
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
   },
   {
     name: "James",
     role: "Business Owner",
     content: "Their system is like an extra team member who never sleeps. I've saved countless hours and noticed better lead quality.",
-    image: "/placeholder.svg"
+    image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952"
   },
   {
     name: "Laura",
     role: "Online Coach",
-    content: "I was skeptical at first, but this automation is smart, responsive, and human-like. Both my clients and I absolutely love it.",
-    image: "/placeholder.svg"
+    content: "I was skeptical at first, but this automation is smart, responsive, and human-like. My clients and I absolutely love it.",
+    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80"
   }
 ];
 

@@ -13,7 +13,7 @@ export const Process = () => {
             {
               step: "2",
               title: "Strategic Proposal",
-              description: "Within 24 hours, we create a custom plan detailing how our ACI Protocol will tackle your specific needs."
+              description: "Within 24 hours, we create a custom plan detailing how our IG Flow Protocol will tackle your specific needs."
             },
             {
               step: "3",

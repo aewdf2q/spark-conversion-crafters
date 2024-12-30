@@ -14,8 +14,8 @@ export const Navbar = () => {
       <div className="container mx-auto px-4 flex items-center justify-between">
         <img src="/lovable-uploads/3ada8791-ef32-47f8-82b2-fedbbe573583.png" alt="Logo" className="h-12 w-12" />
         <div className="flex items-center gap-8">
-          <button onClick={() => scrollToSection("unique-mechanism")} className="text-white hover:text-primary">
-            Services
+          <button onClick={() => scrollToSection("about-us")} className="text-white hover:text-primary">
+            About Us
           </button>
           <button onClick={() => scrollToSection("testimonials")} className="text-white hover:text-primary">
             Testimonials
@@ -24,9 +24,12 @@ export const Navbar = () => {
             FAQ
           </button>
         </div>
-        <CalendlyButton className="bg-gradient-to-r from-red-600 via-yellow-500 to-orange-500 hover:opacity-90 text-white px-4 py-2 rounded-md">
+        <button 
+          onClick={() => document.querySelector('[data-calendly-url]')?.click()}
+          className="bg-gradient-to-r from-red-600 via-yellow-500 to-orange-500 hover:opacity-90 text-white px-4 py-2 rounded-md"
+        >
           Let's Connect
-        </CalendlyButton>
+        </button>
       </div>
     </nav>
   );

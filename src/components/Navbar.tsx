@@ -25,7 +25,7 @@ export const Navbar = () => {
           </button>
         </div>
         <button 
-          onClick={() => document.querySelector('[data-calendly-url]')?.click()}
+          onClick={() => document.querySelector('[data-calendly-url]')?.dispatchEvent(new Event('click'))}
           className="bg-gradient-to-r from-red-600 via-yellow-500 to-orange-500 hover:opacity-90 text-white px-4 py-2 rounded-md"
         >
           Let's Connect

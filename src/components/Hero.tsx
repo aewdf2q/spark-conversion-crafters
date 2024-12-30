@@ -5,16 +5,16 @@ export const Hero = () => {
     <section className="min-h-screen flex flex-col justify-center items-center text-center px-4 bg-black">
       <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white max-w-4xl">
         <span className="bg-gradient-to-r from-red-500 via-yellow-500 to-orange-500 text-transparent bg-clip-text">
-          Is Your Instagram Inbox Silently Killing Your Business Growth?
+          Automate Your Instagram DMs and Consistently Book 5+ Fitness Clients per Week—Guaranteed in 30 Days or You Don't Pay
         </span>
       </h1>
       <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl">
-        Uncover the hidden problems keeping you from growth and how to fix them.
+        If you don't see real client bookings by Day 30, you owe us nothing—our IG Flow Protocol is proven to deliver
       </p>
       <div className="w-full max-w-4xl aspect-video mb-8 bg-gray-800 rounded-lg overflow-hidden">
         <iframe 
           className="w-full h-full"
-          src="https://www.youtube.com/embed/IptNHOmE9j4?si=z4EXaHy83ugo_KPi" 
+          src="https://www.youtube.com/embed/1BKrZeBG8wg?si=bvluvT9RxvwQec-n" 
           title="YouTube video player" 
           frameBorder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 

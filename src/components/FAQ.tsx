@@ -49,7 +49,7 @@ export const FAQ = () => {
           </Accordion>
         </div>
         <div className="mt-12">
-          <CalendlyButton className="bg-gradient-to-r from-red-600 via-yellow-500 to-orange-500 hover:opacity-90 text-white px-8 py-6 text-lg rounded-md" />
+          <CalendlyButton className="bg-gradient-to-r from-red-600 via-yellow-500 to-orange-500 hover:opacity-90 text-white px-8 py-6 text-lg rounded-md animate-float" />
         </div>
       </div>
     </section>

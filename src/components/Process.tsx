@@ -23,12 +23,12 @@ export const Process = () => {
             {
               step: "4",
               title: "Presentation & Final Tweaks",
-              description: "We showcase functionality, gather final feedback, and make improvements before collecting the remaining setup fee."
+              description: "We showcase functionality, gather final feedback and make improvements."
             },
             {
               step: "5",
               title: "Monitoring & Optimization",
-              description: "We monitor performance in real-time, refining the system before transitioning into an ongoing retainer model."
+              description: "We monitor performance in real-time by refining the system."
             }
           ].map((item, index) => (
             <div key={index} className="p-6 bg-gradient-to-br from-gray-900/40 to-gray-800/40 rounded-lg relative">

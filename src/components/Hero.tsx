@@ -6,11 +6,11 @@ export const Hero = () => {
       <div className="max-w-6xl mx-auto mt-16">
         <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white max-w-4xl mx-auto">
           <span className="bg-gradient-to-r from-red-500 via-yellow-500 to-orange-500 text-transparent bg-clip-text">
-            Automate Your Instagram DMs and Consistently Book 5+ Fitness Clients per Week Guaranteed in 30 Days or You Don't Pay
+            Automate Your Instagram DMs and Consistently Book 5+ Fitness Clients per Week—Guaranteed in 30 Days
           </span>
         </h1>
         <p className="text-xl md:text-2xl text-gray-300 mb-8">
-          If you don't see real client bookings by 8 weeks, you owe us nothing
+          or You Don't Pay.
         </p>
         <div className="w-full max-w-4xl mx-auto aspect-video mb-8 bg-gray-800 rounded-lg overflow-hidden">
           <iframe 

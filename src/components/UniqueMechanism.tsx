@@ -11,7 +11,7 @@ export const UniqueMechanism = () => {
             {[
               {
                 q: "What is our approach?",
-                a: "We deploy a specialized automation and AI chatbot framework, targeted at eliminating repetitive tasks like DM handling and appointment scheduling."
+                a: "We deploy a specialized automation and Conversational AI framework, targeted at eliminating repetitive tasks like DM handling and appointment scheduling."
               },
               {
                 q: "How does it work?",
